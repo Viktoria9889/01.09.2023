@@ -11,12 +11,10 @@ function CardInfo(props) {
              .filter((item) => item.title === title)
              .map((item) => (
     <Card.Body>
-
       <Card.Title>{item.title}</Card.Title>
       <Card.Text>
         {item.article}
       </Card.Text>
-
     </Card.Body>
           ))}
   </Card>
